@@ -1,24 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 :root {
   --white: #fff;
-  --red: #fd2d01;
+  --red: rgb(160, 0, 0);
   --grey: #3f3f3f;
-  --black: #000;
+  --black: #141414;
 }
 
 a {
   text-decoration: none;
-  color: var(--grey);
+  color: var(--white);
 }
 
 button {
   cursor: pointer;
 }
+
+/* footer */
+.sultan-footer {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 25px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0px;
+}
+
+.title-footer {
+  font-size: 18px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  padding-top: 6px;
+}
+
+.info span {
+  padding-left: 10px;
+}
+
+.icon {
+  color: var(--red);
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(
+    90deg,
+    var(--black) 0%,
+    var(--red) 50%,
+    var(--black) 100%
+  );
+  padding: 8px 0;
+}
+
+.reseau {
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 50px;
+  padding: 4px 8px 4px 8px;
+  box-shadow: 0px 0px 8px 0.5px var(--black);
+  margin: 0 12px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  padding-top: 15px;
+}
+/* footer */
