@@ -1,0 +1,65 @@
+.headeur {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 9rem;
+}
+
+.laCarte {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+}
+
+.redBox {
+  background-color: #d71313;
+  height: 5%;
+  width: 28%;
+}
+
+.barreNav {
+  display: flex;
+  align-items: center;
+
+  list-style-type: none;
+  font-size: 20px;
+  height: 30%;
+  padding: 0 10px;
+  overflow-y: auto;
+}
+
+.barreNav a {
+  text-decoration: none;
+  background-color: #000000;
+}
+
+.barreNav a:hover {
+  color: #d71313;
+}
+
+.barreNav li {
+  padding: 5px;
+}
+
+.containerColumnCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  height: 70%;
+}
+
+.containerColumnCenter h1,
+.containerColumnCenter h2 {
+  color: #d71313;
+}
+
+.containerColumnCenter h2 {
+  padding: 0 3%;
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-weight: 400;
+}
